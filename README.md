@@ -9,8 +9,8 @@ Source: Mobile_Price_Classification-220531-204702.csv
 
 🧠 Model Architecture
 - Input Layer: Based on number of features
-- Dense Layer 1: 8 units, ReLU activation
-- Dense Layer 2: 4 units, ReLU activation
+- Dense Layer 1: 64 units, ReLU activation
+- Dense Layer 2: 32 units, ReLU activation
 - Output Layer: 1 unit, Sigmoid activation
 
 🛠️ Technologies Used
@@ -23,7 +23,7 @@ Source: Mobile_Price_Classification-220531-204702.csv
 - Loss function: Binary Crossentropy
 - Optimizer: Adam
 - Metrics: Accuracy
-- Epochs: 100 (can be tuned)
+- Epochs: 200 (can be tuned)
 - Batch size: 32 (can be tuned)
 
 🗂️ Files Included
